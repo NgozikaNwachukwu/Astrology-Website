@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+    <title>Enter Your Zodiac</title>
+    <link rel="stylesheet" href="Css/design.css">
+</head>
+<body>
+<main>
+    <header><strong>Already know your zodiac sign?</srtong></header>
+        <label for="zodiac">Enter your Zodiac sign:</label>
+        <input type="text" id="zodiac" required>
+        <button class="submit-btn" onclick="knowZodiac()">Submit</button>
+
+
+</main>
+<p></p>
+
+<div id="footer">
+    <details>
+        <summary>Contact Me:</summary>
+        <a href="https://www.linkedin.com/in/ngozika-nwachukwu-75a104329/?trk=opento_sprofile_topcard" target="_blank">LinkedIn</a>
+    </details>
+        <a href="main.html" target="_blank">Back to main page</a>
+        <p>Thank you for visiting Zee's Astrologies!</p>
+        
+
+    </div>
+    
+
+
+    <script>
+        
+function knowZodiac() {
+    const zodiac = document.getElementById('zodiac').value;
+    if (zodiac) {
+        // Capitalize the first letter and make the rest lowercase
+        const formattedZodiac = zodiac.charAt(0).toUpperCase() + zodiac.slice(1).toLowerCase();
+        window.location.href = `zodiac.html?sign=${formattedZodiac}`;
+    } 
+}
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+    <title>Find Your Zodiac</title>
+    <link rel="stylesheet" href="Css/design.css">
+</head>
+<body>
+
+<main>
+    <header><strong>Find your Zodiac Sign!</strong></header>
+    <!-- Date input for birthdate -->
+    <label for="birthdate">Enter your birth date by clicking on the calender icon:</label>
+    <input class="date-btn" type="date" id="birthdate" required>
+    <button class="submit-btn" onclick="findZodiac()">Submit</button>
+
+    <!-- Area to display the result -->
+    <div id="result" style="display:none; margin-top: 20px;">
+        <p id="zodiac-sign"></p>
+        <button id="learnmore-btn" style="display:none;"></button>
+    </div>
+</main>
+<p></p>
+
+<div id="footer">
+    <details>
+        <summary>Contact Me:</summary>
+        <a href="https://www.linkedin.com/in/ngozika-nwachukwu-75a104329/?trk=opento_sprofile_topcard" target="_blank">LinkedIn</a>
+    </details>
+        <a href="main.html" target="_blank">Back to main page</a>
+        <p>Thank you for visiting Zee's Astrologies!</p>
+        
+
+    </div>
+    
+
+    <script src="Js/script.js"></script>
+
+</body>
+
+</html>

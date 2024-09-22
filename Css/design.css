@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(70, 11, 113);
+    font-family: 'Neuton', sans-
+	serif;
+}
+#Overview{
+    text-align: center;
+}
+/* Button for "Find Your Zodiac Sign" */
+.findsign-btn {
+    background-color: #0c0d0d; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button for "I Already Know My Zodiac" */
+.knowsign-btn {
+    background-color: #0c0d0d; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#footer{
+    background-color: #0c0d0d;
+    text-align: center;
+    color: white;
+    width:1265px;
+    height: 90px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center */
+    align-items: center; /* Horizontally center */
+    min-height: 80vh; /* Adjusts the height of the section */
+    text-align: center; /* Centers text inside the form */
+}
+
+input[type="date"], button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#result {
+    margin-top: 20px;
+}
+.submit-btn{
+    background-color: #222323; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.date-btn{
+    background-color: #222323; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.learnmore-btn{
+    background-color: #0c0d0d; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+ul li a {
+    color: black; /* Change link color to black */
+}
+
+.custom-hr {
+    border: none; /* Remove default border */
+    height: 2px; /* To Adjust thickness */
+    background-color: black; /* Sets color to black */
+    margin: 20px 0; /* To Adjust top and bottom margin for spacing */
+    width: 102%; /* To Adjust the width to fit the design */
+    margin-left: auto; /* Center aligns the hr */
+    margin-right: auto; /* Center aligns the hr */
+}
+
+#learnmore-btn{
+    background-color: #222323; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#zodiac-title{
+    text-align: center;
+}
